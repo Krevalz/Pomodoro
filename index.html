@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro</title>
+	<link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="pageDidLoad()">
+	<div id="tint"></div>
+	<div class="wrapper">
+		<h1 id="header" align="center" onclick="window.open('https://www.youtube.com/watch?v=AQBh9soLSkI', '_blank')">Pomodoro</h1>
+		<div class="content">
+			<p class="timer" id="timerLabel">Booting Up <3</p>
+			<input type="range" min="1" max="60" value="25" step="1" class="slider" id="slider" align="center" oninput="sliderChanged(this.value)" onchange="sliderChanged(this.value)">
+			<p align="center" style="margin-bottom: 0px;">
+				<input type="button" class="startButton" value="Start" align="center" onclick="beginTimer()">
+				<input type="button" class="startButton" value="Pause" align="center" onclick="endTimer()">
+				<input type="button" class="startButton" value="Set to Slider" align="center" onclick="resetTimer()">
+				<input type="button" class="startButton" value="Set to Save 1" align="center" onclick="set1()">
+				<input type="button" class="startButton" value="Set to Save 2" align="center" onclick="set2()">
+				<br><br>
+				1:
+				<input type="text" id="interval1" name="field" value="25">
+				2:
+				<input type="text" id="interval2" name="field" value="5"> 
+				<br><br>
+			</p>
+			<br><br>
+			<div class="videos">
+			<div class="youtubeVideo">
+				<h4>Lofi Hip Hop</h4>
+				<!-- 300 width to show valume, 350 width to allow slider of volume -->
+				<iframe width='100%' height='40' src="https://www.youtube.com/embed/ohQPySWJToo?&theme=dark&autohide=2&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe>
+			</div>
+			<div class="youtubeVideo">
+				<h4>Rain</h4>
+				<!-- 300 width to show valume, 350 width to allow slider of volume -->
+				<iframe width='100%' height='40' src="https://www.youtube.com/embed/c9pQYOGIWM8?&theme=dark&autohide=2&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe>
+			</div>
+			<div class="youtubeVideo">
+				<h4>Nature</h4>
+				<iframe width='100%' height='40' src="https://www.youtube.com/embed/eKFTSSKCzWA?&theme=dark&autohide=2&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe>
+			</div>
+			<div class="youtubeVideo">
+				<h4>Fire</h4>
+				<iframe width='100%' height='40' src="https://www.youtube.com/embed/Ftm2uv7-Ybw?&theme=dark&autohide=2&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe>
+			</div>
+			<div class="youtubeVideo">
+				<h4>White Noise</h4>
+				<iframe width='100%' height='40' src="https://www.youtube.com/embed/ArwcHjmsw3A?&theme=dark&autohide=2&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe>
+			</div>	
+			</div>	
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

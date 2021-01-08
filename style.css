@@ -1,0 +1,98 @@
+body {
+	background-color: black;
+	background-image: url(https://wallscover.com/images/comic-3.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+
+h4 {
+	text-align: center;
+	margin: 5px;
+}
+
+iframe {
+	margin-bottom: 0px;
+}
+
+input[type=button] {
+}
+
+.center {
+	margin: auto;
+	padding: 0;
+}
+
+#header	 {
+	font-weight: 400;
+	padding: 0;	
+	margin: 0;
+	font-family: 'Yellowtail', cursive;
+	color: white;
+	font-size: 60px;	
+	text-shadow: 4px 4px 10px black;
+}
+
+#tint{
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.wrapper {
+	background: #cb2d3e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: auto;
+	padding: 0px;
+	margin-top: 50px;
+	border: 3px solid black;
+	border-radius: 10px;
+	width: 80%;
+	max-width: 900px;
+	overflow: hidden;
+	box-shadow: 0px 0px 20px 00px #666;
+	margin-bottom: 30px;
+}
+
+.content {
+	background-color: white;
+	border-top: 2px solid black;
+	padding-bottom: 2px;
+}
+
+.timer {
+	margin: 20px 0px 20px 0px;
+	text-align: center;
+	font-size: 100pt;	
+}
+
+.videos {
+	border-top: black 2px solid;
+	background-color: #EEE;
+}
+
+.youtubeVideo {
+	font-family: "Comic Sans MS";
+	color: black;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 0px;	
+	overflow: hidden;
+	border-bottom: 1px solid grey;
+}
+
+.slider {
+	margin: 0px 20% 0px 20%;
+	width: 60%;
+}
+
+.sliderVal {
+	display: block;
+	align-content: center;
+	text-align: center;	
+}
+
